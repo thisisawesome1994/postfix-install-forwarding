@@ -1,7 +1,7 @@
 # postfix-install-forwarding
 </br>
-  <b>1. Install Postfix<b></br>
-  </br>
+  <b>1. Install Postfix<b>
+
 ```
 sudo apt update
 sudo apt-get install postfix
@@ -17,6 +17,7 @@ MX Record = yourdomain.com > mail.yourdomain.com > Priority 10 > TTL 14400</br>
 
   <b>3. Edit the Postfix Config File<b></br>
   </br>
+  
 ```
 sudo nano /etc/postfix/main.cf
 ```
