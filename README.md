@@ -1,4 +1,5 @@
 # postfix-install-forwarding
+
 </br>
   <b>1. Install Postfix<b>
 
@@ -46,7 +47,7 @@ To catch all emails sent to your domain, just use: </br>
   <b>5. Open Port 25<b></br>
 ```
 ufw allow 465
-ufw deny 25
+ufw allow 25
 ```
   
   <b>6. Change to port 465 smtps<b></br>
