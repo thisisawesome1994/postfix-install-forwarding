@@ -75,7 +75,7 @@ sudo /etc/init.d/postfix reload
 sudo service postfix restart 
  
 ```
-    <b>8. Optional: Adding TLS security</br>
+  <b>8. Optional: Adding TLS security</br>
     - Create certificate inside /etc/postfix</b></br>
     
 ```
